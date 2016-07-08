@@ -39,7 +39,7 @@ defmodule Bitcoin.HSM.Server.Mixfile do
       {:cowlib, "~> 1.3.0", override: true},
       {:cowboy, github: "ninenines/cowboy", ref: "2.0.0-pre.3"},
       {:libbitcoin, github: "cancoin/libbitcoin-nif"},
-      {:bitcoin_hsm, path: "cancoin/bitcoin-hsm"},
+      {:bitcoin_hsm, github: "cancoin/bitcoin-hsm"},
       {:base58, github: "cancoin/erl-base58"}
     ]
   end

@@ -2,6 +2,7 @@
   "base58": {:git, "https://github.com/cancoin/erl-base58.git", "dd22cf9fa475befb8258f4cf67d77484c0d7fd37", []},
   "base58check": {:git, "https://github.com/gjaldon/base58check.git", "1006aa4b2acf51ddd99f71997ba6baf44fcdb7c3", []},
   "bbmustache": {:hex, :bbmustache, "1.0.3"},
+  "bitcoin_hsm": {:git, "https://github.com/cancoin/bitcoin-hsm.git", "8037d85ed60627f2344ed017f5ba21499dc6f462", []},
   "conform": {:hex, :conform, "0.17.0"},
   "cowboy": {:git, "https://github.com/ninenines/cowboy.git", "dbb636034f20736e16eb9d6c809217c9525b6cbd", [ref: "2.0.0-pre.3"]},
   "cowlib": {:hex, :cowlib, "1.3.0"},
