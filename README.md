@@ -1,20 +1,10 @@
-# BitcoinHsmServer
+# Bitcoin.Hsm.Server
 
-**TODO: Add description**
+**Work In Progress server for signing bitcoin transactions using Ledger HW.1/Nano's running in developer mode**
+
+There is currently no authentication at all so **do not expose it to the public internet!**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add bitcoin_hsm_server to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:bitcoin_hsm_server, "~> 0.0.1"}]
-        end
-
-  2. Ensure bitcoin_hsm_server is started before your application:
-
-        def application do
-          [applications: [:bitcoin_hsm_server]]
-        end
+**TODO**
 
