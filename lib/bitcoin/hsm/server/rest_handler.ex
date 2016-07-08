@@ -28,8 +28,8 @@ defmodule Bitcoin.HSM.Server.RESTHandler do
         {:ok, req, state}
     end
   end
-  def info({:error, ref, error}, req,  %{ref: ref} = state) do
-    Logger.debug "error response  #{command} #{error}"
+  def info({:error, ref, error}, req,  %{ref: ref, module: module} = state) do
+    Logger.debug "error response #{module} #{error}"
     {:ok, json} = JSX.encode(%{error: error})
     req = :cowboy_req.reply(500, [], json, req)
     {:ok, req, state}
